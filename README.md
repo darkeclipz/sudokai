@@ -55,7 +55,7 @@ Look at the x values and the y values as a histogram, and cluster the points. Th
  
  1. Sort the values.
  2. Start a cluster with the first point
- 3. If the next point is in proximity to the cluster (|x_n - c| < k*std_dev), add it to the cluster.
+ 3. If the next point is in proximity to the cluster (|x_i - c| < k*std_dev), add it to the cluster.
     1. Re-calculate the center of the cluster, c, which is the mean of the values in the cluster.
     2. If the point is not in proximity then use the cluster mean as the point.
        1. Start a new cluster with the point that was not in proximity, and repeat this.
