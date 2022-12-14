@@ -65,7 +65,8 @@ The algorithm can be improved to work with noisier histograms, e.g. if more line
 
 I made this video to see if there are any obvious patterns arising when rotating a grid.
 
-<video src="https://github.com/darkeclipz/sudokai/raw/master/movie.mp4"></video>
+https://user-images.githubusercontent.com/2125444/207728663-393470f2-8448-4102-8ed5-10be5b9fa942.mp4
+
 
 #### X-axis histogram
 
