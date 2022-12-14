@@ -51,7 +51,7 @@ Detect lines using `cv.HoughLinesP`.
 
 ### Clustering
 
-Look at the x values and the y values as a histogram, and cluster the points. The clustering is done by finding the standard deviation of the values on a single axis. 
+Look at the x values and the y values as a histogram, and cluster the points. The clustering is done by finding the standard deviation of the values on a single axis. The standard deviation is then scaled by a factor `k` (hand picked for good results) to detect if a point is in close proximity to the cluster. The algorithms is as follows: 
  
  1. Sort the values.
  2. Start a cluster with the first point
@@ -59,6 +59,10 @@ Look at the x values and the y values as a histogram, and cluster the points. Th
     1. Re-calculate the center of the cluster, c, which is the mean of the values in the cluster.
     2. If the point is not in proximity then use the cluster mean as the point.
        1. Start a new cluster with the point that was not in proximity, and repeat this.
+
+It essentially is a k-means clustering (k has nothing to do with the number of clusters though in this case). 
+
+The algorithm can be improved to work with noisier histograms, e.g. if more lines are detected.
 
 #### X-axis histogram
 
