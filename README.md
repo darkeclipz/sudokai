@@ -3,7 +3,7 @@
 This app solves Sudoku puzzles using an image as input. 
 It uses OpenCV and a neural network to extract the data of an image, and then solves it with a backtrack solver.
 The goal of the project was to build it in one day, so there are a lot of improvements to be made!
-There is probably a much better method to do this, but I wanted to see what I could come up with myself without spoiling it too much by looking at tutorials or approaches other people used.
+There is probably a much better method to do this, but I wanted to see what I could come up with myself without spoiling it too much by looking at tutorials or approaches other people used. The main focus of this project was to work with OpenCV.
 
 ![Example puzzle](dataset/normalized/1.png)
 
