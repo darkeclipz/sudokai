@@ -60,7 +60,7 @@ Look at the x values and the y values as a histogram, and cluster the points. Th
     2. If the point is not in proximity then use the cluster mean as the point.
        1. Start a new cluster with the point that was not in proximity, and repeat this.
 
-It essentially is a k-means clustering (k has nothing to do with the number of clusters though in this case). 
+It essentially is a one dimensional k-means clustering (k has nothing to do with the number of clusters though in this case). 
 
 The algorithm can be improved to work with noisier histograms, e.g. if more lines are detected.
 
