@@ -17,7 +17,7 @@ def cells_to_puzzle_string(cells):
     return puzzle
  
 
-def sodokai(img):
+def sudokai(img):
     print('Normalizing image to 512 by 512 pixels...')
     img = normalize(img)
     print('Extracting cells from image...')
@@ -42,5 +42,5 @@ if __name__ == '__main__':
         raise FileNotFoundError(args.image)
 
     img = cv2.imread(args.image)
-    solution = sodokai(img)
+    solution = sudokai(img)
     print_grid(solution)
