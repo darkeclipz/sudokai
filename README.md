@@ -110,6 +110,7 @@ During the development I ran into multiple issues that need to be resolved to al
     1. Remove the border of the cell properly.
     2. Re-center the digit and add padding around it, to better align it for the classifier.
     3. Detect perspective and undo the perspective with a transform.
+    4. Improve the extraction of the grid, so it can handle cases where it finds more than 9 clusters on an axis.
  2. Improve classifier:
     1. Currently it uses a MNIST classifier from a tutorial, however it does not handle a computer font really well.
  3. Improve solver:
