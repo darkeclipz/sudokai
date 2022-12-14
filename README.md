@@ -61,8 +61,11 @@ Look at the x values and the y values as a histogram, and cluster the points. Th
        1. Start a new cluster with the point that was not in proximity, and repeat this.
 
 It work a little bit like a one dimensional k-means clustering (k has nothing to do with the number of clusters though in this case). 
-
 The algorithm can be improved to work with noisier histograms, e.g. if more lines are detected.
+
+I made this video to see if there are any obvious patterns arising when rotating a grid.
+
+<video src="https://github.com/darkeclipz/sudokai/raw/master/movie.mp4"></video>
 
 #### X-axis histogram
 
